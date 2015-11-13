@@ -18,7 +18,8 @@ let g:buftabs_marker_modified = "+"
 set colorcolumn=120
 
 " Toggle whitespace visibility with ,s
-nmap <Leader>s :set list!<CR>
+" nmap <Leader>s :set list!<CR>
+nmap s <plug>(easymotion-prefix)
 set listchars=tab:▸\ ,trail:·,extends:❯,precedes:❮,nbsp:×
 :set list " Enable by default
 
